@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(149, 119, 85);
+}  
+
+  
+  .cellpad {
+    background-color: white;
+    table-layout: fixed;
+    width: 100%;
+
+  }
+  tbody {
+    overflow:scroll
+  }
+  tbody tr:nth-child(odd) {
+    background-color: rgba(135, 3, 3, 0.559);
+  }
+  tbody tr:nth-child(even) {
+    background-color: gold;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: left;
+  }
+
+  .image{
+    padding: 5px;
+    width: 200px;
+    height:200px;
+  }
+
+
+
+  .text {
+    font-size: 20px;
+    margin-left: 300px;
+  }
+
+  .left{
+    text-align: left;
+  }
